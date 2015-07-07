@@ -1,6 +1,5 @@
 target/
 .DS_Store
-*.out.*
 *.zip
 logs
 web/project/project
