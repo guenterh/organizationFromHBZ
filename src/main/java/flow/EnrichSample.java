@@ -25,7 +25,7 @@ public class EnrichSample {
 	 */
 	public static void main(String... args) {
 		processSample(ElasticsearchAuxiliary.TEST_RESOURCES_PATH
-				+ "output/enriched.out.json");
+				+ "output/enriched.out.noBulk.json");
 	}
 
 	static void processSample(final String aOutputPath) {

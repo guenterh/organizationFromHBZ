@@ -154,7 +154,7 @@ public class Enrich {
 				.setReceiver(new TripleCollect())//
 				.setReceiver(morph)//
 				.setReceiver(encodeJson)//
-				.setReceiver(esBulk)//
+				//.setReceiver(esBulk)//
 				.setReceiver(writer);
 	}
 }
